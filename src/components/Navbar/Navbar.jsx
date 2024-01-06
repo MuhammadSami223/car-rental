@@ -1,5 +1,5 @@
 import React from 'react'
-import './NAvbar.css'
+import './Navbar.css'
 import logo from '../../assets/logo.png'
 import {motion } from 'framer-motion'
 
