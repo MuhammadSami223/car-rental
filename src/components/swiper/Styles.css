@@ -1,0 +1,87 @@
+#app {
+    height: 100%;
+  }
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+  
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .swiper {
+    margin-top: 100px;
+    width: 70rem;
+    height: 20rem;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .headings{
+    display: flex;
+    justify-content: center;align-items: center;
+    width: 400px;
+    font-size: 22px;
+    height: 500px;
+  }
+  .user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    position: absolute;
+    margin-top: 186px;
+    margin-left: -313px;
+  }
+  .user img{
+width: 50px;
+height: 50px;
+border-radius: 50%;
+margin-top: 20px;
+
+  }
+  .user>div{
+    margin-top: 42px;
+    margin-left: -142px;
+  }
+  .user>span{
+    margin-left: 10px;
+    font-size: 20px;
+  }
+ @media screen and (max-width:480px) {
+  .swiper{
+    width: 365px;
+  }
+  .user>img{
+    margin-left: 79px;
+  }
+  .fa-quote-right{
+    margin-right: 50px;
+  }
+  .headings>h3{
+    font-size: 23px;
+    width: 340px;
+  }
+ }

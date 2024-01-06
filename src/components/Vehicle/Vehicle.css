@@ -1,0 +1,159 @@
+.compony-container{
+    display: flex;
+    gap: 120px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+}
+.vehicle-headings{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 3px;
+    margin-top: 100px;
+}
+
+
+.vehicle-headings>p{
+    width: 513px;
+    color: gray;
+    display: flex;
+    line-height: 20px;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+}
+.vehicle-headings>span{
+    color: gray
+}
+.left>img{
+    width: 431px;
+    height: 478px;
+    
+}
+.compony-headings>h1{
+    font-size: 44px;
+    font-weight: bold;
+    line-height: 54px;
+    width: 110%;
+    /* color: aliceblue; */
+}
+.compony-headings>p{
+    color: gray;
+}
+.transport-count{
+    display: flex;
+    /* margin-top: 120px; */
+    gap: 80px;
+
+}
+.tranport-image>img{
+    width: 58px;
+    height: 34px;
+}
+.count{
+    display: flex;
+    font-size: 44px;
+    font-weight: bold;
+}
+.count>span{
+    font-size: 16px;
+    margin-left: 15px;
+    margin-top: 9px;
+color: gray;
+line-height: 18px
+}
+.savebg img{
+    height: 422px;
+    width: 1349px;
+    margin-left: -8px;
+    /* background-repeat: no-repeat; */
+    /* background-size: auto; */
+    top: 0;
+    left: 0;
+    margin-top: 80px;
+    position: relative;
+    opacity: .99;
+}
+.savebg h1{
+    position: relative;
+    margin-top: -350px;
+    color: white;
+    font-size: 54px;
+    width: 50%;
+margin-left: 84px;
+line-height: 54px;
+}
+.savebg h3{
+    position: relative;
+    margin-top: -20px;
+    color: white;
+    font-size: 24px;
+    /* width: 50%; */
+margin-left: 84px;
+}
+.padding{
+    position: relative;
+    float: inline-end;
+    top: -183px;
+    left: -178px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    width: 300px;
+}
+.padding{
+    position: relative;
+}
+@media screen and (max-width:480px){
+    .vehicle-headings>p{
+        width: 331px;
+    }
+    .vehicle-headings>span{
+        display: none;
+    }
+    .compony-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .left>img{
+        width: 305px;
+    height: 300px;
+    margin-left: -37px;
+    margin-bottom: -133px;
+    transform: none !important;
+    }
+    .compony-headings{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+    .compony-headings>h1{
+        font-size: 28px;
+        margin-left: 286px;
+        width: 67%;
+        line-height: 36px;
+        font-weight: bold;
+    }
+    .compony-headings>h3{
+        margin-left: 147px;
+    }
+    .compony-headings>p{
+        margin-left: 285px;
+        width: 65%;
+
+    }
+   
+   .savebg{
+    display: none;
+    
+   }
+   .transport-count{
+    display: none;
+   }
+}

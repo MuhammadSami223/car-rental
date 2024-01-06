@@ -1,0 +1,90 @@
+.footer-container{
+    display: flex;
+    gap: 65px;
+    margin-left: 140px;
+    margin-top: 120px;
+}
+.footer1>p{
+    width: 230px;
+}
+.footer4>p{
+    width: 230px;
+}
+.footer3>span{
+    display: inline;
+    gap: 50px;
+    flex-direction: row;
+    padding-top: 66px;
+}
+.timing-container{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+.timing-container>div>label{
+    font-weight: 100;
+    color: gray;
+    font-size: 15px;
+    /* color: aliceblue; */
+}
+.footer3>h2{
+    font-size: 24px;
+}
+.footer1>h3{
+    font-size: 24px;
+}
+.footer2>h3{margin-top: 18px;
+    font-size: 24px;
+
+}
+.footer1>p{
+    color: gray;
+}
+.icon-container{
+    display: flex;
+}
+.icons>a{
+    list-style: none;
+    float: right;
+    color: black;
+    font-size: 25px;
+   
+}
+.icons{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    font-size: 25px;
+    color: black;
+    margin-left: 620px;
+    margin-top: 65px;
+
+}
+@media screen and (max-width:480px) {
+    .footer1{
+        display: none;
+    }
+    .footer2{
+        margin-left: -125px;
+    }
+    .footer4{
+        margin-left: -308px;
+        margin-top: 242px;
+    
+    }
+    .footer-container{
+        gap: 29px;
+    }
+    .footer3>h2{
+        font-size: 21px;
+    }
+    .footer2>h3{
+font-size: 19px;
+    }
+    .icons{
+        display: none
+    }
+    .footer-para{
+     display: none;
+    }
+}

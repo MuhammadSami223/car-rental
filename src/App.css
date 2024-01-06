@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400&display=swap');
+*{
+  font-family: 'Poppins', sans-serif;
+}
+.btn{
+  font-family: "Rubik", Sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 20px;
+    letter-spacing: -0.6px;
+    color: #FFFFFF;
+    border-style: none;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0px 10px 15px 0px rgba(255, 83, 48,)
+}
